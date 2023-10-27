@@ -17,6 +17,35 @@ function ProjectOne() {
           </div>
         </Link>
 
+        <div className="flex flex-col lg:justify-between lg:flex-row">
+          <p>Personalization at Spotify</p>
+          <p>
+            The talented machine learning engineers at Spotify needed a look and
+            feel to match the exciting work they were doing at the intersection
+            of music and AI. I worked directly with VPs in engineering, product,
+            and design to establish typography, color, and layout styling that
+            aligned with their mission statement as an organization.
+          </p>
+        </div>
+
+        <div className="flex flex-row">
+          <div className="flex flex-col">
+            <p>Details:</p>
+            <div>
+              <p>2022</p>
+              <p>Spotify</p>
+              <p>Internal Brand Designer</p>
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <p>Details:</p>
+            <p>
+              Visual details were adjusted after my layoff. They don’t know what
+              they’re missing ;)
+            </p>
+          </div>
+        </div>
+
         <img src={imageOne} alt="AI at Spotify" />
         <img src={imageTwo} alt="AI at Spotify" />
         <img src={imageThree} alt="AI at Spotify" />
