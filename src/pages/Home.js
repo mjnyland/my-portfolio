@@ -9,6 +9,9 @@ function Home() {
           <Link className="font-blue" to="ProjectOne">
             <h1 className="text-8xl">AI at Spotify</h1>
           </Link>
+          <Link className="font-blue" to="ProjectTwo">
+            <h1 className="text-8xl">SBWC Mobile App</h1>
+          </Link>
         </div>
       </div>
     </div>

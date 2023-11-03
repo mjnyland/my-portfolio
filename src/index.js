@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProjectOne from "./pages/ProjectOne";
+import ProjectTwo from "./pages/ProjectTwo";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="ProjectOne" index element={<ProjectOne />} />
+        <Route path="ProjectTwo" index element={<ProjectTwo />} />
       </Routes>
     </BrowserRouter>
   );
