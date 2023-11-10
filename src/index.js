@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProjectOne from "./pages/ProjectOne";
 import ProjectTwo from "./pages/ProjectTwo";
+import ProjectThree from "./pages/ProjectThree";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" index element={<Home />} />
         <Route path="ProjectOne" index element={<ProjectOne />} />
         <Route path="ProjectTwo" index element={<ProjectTwo />} />
+        <Route path="ProjectThree" index element={<ProjectThree />} />
       </Routes>
     </BrowserRouter>
   );

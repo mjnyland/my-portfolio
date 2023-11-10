@@ -12,6 +12,9 @@ function Home() {
           <Link className="font-blue" to="ProjectTwo">
             <h1 className="text-8xl">SBWC Mobile App</h1>
           </Link>
+          <Link className="font-blue" to="ProjectThree">
+            <h1 className="text-8xl">Crewsheets</h1>
+          </Link>
         </div>
       </div>
     </div>
