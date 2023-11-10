@@ -20,7 +20,7 @@ function Home() {
           <div>
             <h1 className="text-2xl font-bold">Banner</h1>
             <h1 className="text-xl">Motion Designer</h1>
-            <h1 className="text-xl">2021 - 2022</h1>
+            <h1 className="text-xl">2020 - 2022</h1>
           </div>
         </div>
         <div>
