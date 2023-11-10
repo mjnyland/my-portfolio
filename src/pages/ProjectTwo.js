@@ -30,11 +30,11 @@ function ProjectTwo() {
           </div>
         </div>
         {/*<img src={imageTwo} alt="AI at Spotify" />*/}
-        <img src={imageThree} alt="AI at Spotify" />
-        <img src={imageFour} alt="AI at Spotify" />
-        <img src={imageSeven} alt="AI at Spotify" />
-        <img src={imageFive} alt="AI at Spotify" />
-        <img src={imageSix} alt="AI at Spotify" />
+        <img src={imageThree} alt="AI at Spotify" loading="lazy" />
+        <img src={imageFour} alt="AI at Spotify" loading="lazy" />
+        <img src={imageSeven} alt="AI at Spotify" loading="lazy" />
+        <img src={imageFive} alt="AI at Spotify" loading="lazy" />
+        <img src={imageSix} alt="AI at Spotify" loading="lazy" />
       </div>
     </div>
   );
