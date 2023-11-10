@@ -7,7 +7,7 @@ function Home() {
       <h1 className="text-8xl font-semibold pt-[160px]">Michael Nyland</h1>
       <div className="flex flex-col lg:flex-row justify-between flex-grow">
         <div className="flex flex-col gap-[12px]">
-          <h3 className="text-2xl pb-[8px]">Experience:</h3>
+          <h3 className="text-2xl pb-[16px]">Experience:</h3>
           <div>
             <h1 className="text-2xl font-semibold pb-[4px]">Daysheets</h1>
             <h1 className="text-xl">Product & Brand Designer</h1>
