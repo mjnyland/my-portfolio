@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProjectOne from "./pages/ProjectOne";
 import ProjectTwo from "./pages/ProjectTwo";
 import ProjectThree from "./pages/ProjectThree";
+import ProjectFour from "./pages/ProjectFour";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="ProjectOne" index element={<ProjectOne />} />
         <Route path="ProjectTwo" index element={<ProjectTwo />} />
         <Route path="ProjectThree" index element={<ProjectThree />} />
+        <Route path="ProjectFour" index element={<ProjectFour />} />
       </Routes>
     </BrowserRouter>
   );

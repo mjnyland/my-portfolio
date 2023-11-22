@@ -4,7 +4,7 @@ import imageOne from "../assets/Crewsheets_1.png";
 import imageTwo from "../assets/Crewsheets_2.png";
 import imageThree from "../assets/Crewsheets_3.png";
 import imageFour from "../assets/Crewsheets_4.png";
-import imageFive from "../assets/Crewsheets_5.png";
+import imageFive from "../assets/Crewsheets_0.png";
 
 function ProjectThree() {
   return (

@@ -3,38 +3,73 @@ import { Outlet, Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="flex flex-col items-left gap-[64px] mx-auto max-w-4xl">
-      <h1 className="text-8xl font-semibold pt-[160px]">Michael Nyland</h1>
-      <div className="flex flex-col lg:flex-row justify-between flex-grow">
-        <div className="flex flex-col gap-[12px]">
-          <h3 className="text-2xl pb-[16px]">Experience:</h3>
-          <div>
-            <h1 className="text-2xl font-semibold pb-[4px]">Daysheets</h1>
-            <h1 className="text-xl">Product & Brand Designer</h1>
-            <h1 className="text-xl">2023 - Present</h1>
-          </div>
-          <div>
-            <h1 className="text-2xl font-semibold pb-[4px]">Spotify</h1>
-            <h1 className="text-xl">Internal Brand Designer</h1>
-            <h1 className="text-xl">2022 - 2023</h1>
-          </div>
-          <div>
-            <h1 className="text-2xl font-semibold pb-[4px]">Banner</h1>
-            <h1 className="text-xl">Motion Designer</h1>
-            <h1 className="text-xl">2020 - 2022</h1>
+    <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-1">
+      <div className="flex flex-col items-left gap-[64px] mx-auto max-w-md">
+        {" "}
+      </div>
+      <div className="flex flex-col items-left gap-[64px] mx-auto max-w-md">
+        <h1 className="text-2xl font-semibold pt-[160px]">
+          Hi there, I'm Michael.
+        </h1>
+        <div className="flex flex-col gap-[16px]">
+          <p className="text-lg">
+            I've been in charge of Product & Brand Design at{" "}
+            <a className="font-bold">Daysheets</a> for over a year now. I live
+            in Brooklyn, by way of Chicago. I'm currently looking for full-time
+            roles. Mostly with startups, but I'm open to larger companies as
+            well.
+          </p>
+        </div>
+        <div className="flex flex-col gap-[16px]">
+          <p className="text-slate-500">Experience:</p>
+          <div className="grid grid-cols-2 grid-rows-3 gap-y-[24px]">
+            <div>
+              <h3 className="text-lg font-medium">Daysheets</h3>
+            </div>
+            <div className="flex flex-col">
+              <h3 className="text-md">Product & Brand Designer</h3>
+              <h3 className="text-md text-slate-500">2023 - Present</h3>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium">Spotify</h3>
+            </div>
+            <div className="flex flex-col">
+              <h3 className="text-md">Internal Brand Design</h3>
+              <h3 className="text-md text-slate-500">2022-2023</h3>
+            </div>
+            <div>
+              <h3 className="text-lg font-medium">Banner</h3>
+            </div>
+            <div className="flex flex-col">
+              <h3 className="text-md">Motion Designer</h3>
+              <h3 className="text-md text-slate-500">2018 - 2020</h3>
+            </div>
           </div>
         </div>
         <div>
-          <h3 className="text-2xl pb-[16px]">Projects:</h3>
+          <h3 className="text-lg pb-[16px]">Projects:</h3>
           <div className="flex flex-col items-left justify-center gap-[16px]">
             <Link className="font-blue" to="ProjectOne">
-              <h1 className="text-4xl">AI at Spotify</h1>
+              <h1 className="text-md font-semibold">AI at Spotify</h1>
+              <p>How I visualized AI for Spotify.</p>
             </Link>
             <Link className="font-blue" to="ProjectTwo">
-              <h1 className="text-4xl">SBWC Mobile App</h1>
+              <h1 className="text-md font-semibold under">SBWC Mobile App</h1>
+              <p>How I created the worlds easisest to use powerlifting app.</p>
             </Link>
             <Link className="font-blue" to="ProjectThree">
-              <h1 className="text-4xl">Crewsheets</h1>
+              <h1 className="text-md font-semibold">Crewsheets</h1>
+              <p>
+                How I helped close a 1.25MM seed round for a product that didn't
+                exist.
+              </p>
+            </Link>
+            <Link className="font-blue" to="ProjectFour">
+              <h1 className="text-md font-semibold">Daysheets</h1>
+              <p>
+                How I created a product design strategy that helped a startup
+                scale to 3MM revenue.
+              </p>
             </Link>
           </div>
         </div>
