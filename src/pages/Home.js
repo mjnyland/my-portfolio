@@ -46,30 +46,26 @@ function Home() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="pb-[64px]">
           <h3 className="text-lg pb-[16px]">Projects:</h3>
           <div className="flex flex-col items-left justify-center gap-[16px]">
-            <Link className="font-blue" to="ProjectOne">
-              <h1 className="text-md font-semibold">AI at Spotify</h1>
-              <p>How I visualized AI for Spotify.</p>
-            </Link>
             <Link className="font-blue" to="ProjectTwo">
               <h1 className="text-md font-semibold under">SBWC Mobile App</h1>
-              <p>How I created the worlds easisest to use powerlifting app.</p>
-            </Link>
-            <Link className="font-blue" to="ProjectThree">
-              <h1 className="text-md font-semibold">Crewsheets</h1>
-              <p>
-                How I helped close a 1.25MM seed round for a product that didn't
-                exist.
-              </p>
+              <p>The worlds easisest to use powerlifting app.</p>
             </Link>
             <Link className="font-blue" to="ProjectFour">
               <h1 className="text-md font-semibold">Daysheets</h1>
               <p>
-                How I created a product design strategy that helped a startup
-                scale to 3MM revenue.
+                Product Design for the worlds biggest artists, and their crew.
               </p>
+            </Link>
+            <Link className="font-blue" to="ProjectOne">
+              <h1 className="text-md font-semibold">AI at Spotify</h1>
+              <p>Visualizing AI for Spotify.</p>
+            </Link>
+            <Link className="font-blue" to="ProjectThree">
+              <h1 className="text-md font-semibold">Crewsheets</h1>
+              <p>Contra for the music industry.</p>
             </Link>
           </div>
         </div>
