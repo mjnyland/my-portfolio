@@ -1,11 +1,13 @@
 import "../App.css";
 import { Outlet, Link } from "react-router-dom";
-import imageOne from "../assets/PZN_HeroImage_v1.3.png";
-import imageTwo from "../assets/PZN_Slides_v1.2.png";
-import imageThree from "../assets/PZN_Sticker_v1.2.png";
-import imageFour from "../assets/PZN_Text_v1.2.png";
-import imageFive from "../assets/PZN_Journal_v1.png";
-import imageSix from "../assets/PZN_Hat_v1.png";
+import imageOne from "../assets/PZN_HeroImage_v2.png";
+import imageTwo from "../assets/PZN_MissionVisionPurpose_01.png";
+import imageThree from "../assets/PZN_MissionVisionPurpose_02.png";
+import imageFour from "../assets/PZN_MissionVisionPurpose_03.png";
+import imageFive from "../assets/PZN_Tote.png";
+import imageSix from "../assets/PZN_TShirt.png";
+import Vimeo from "@u-wave/react-vimeo";
+import ReactPlayer from "react-player";
 
 function ProjectOne() {
   return (
@@ -49,11 +51,29 @@ function ProjectOne() {
             </div>
           </div>
         </div>
+        <ReactPlayer
+          url="https://vimeo.com/909835747?share=copy"
+          controls="true"
+          width="100%"
+        />
+
         <img src={imageTwo} alt="AI at Spotify" loading="lazy" />
         <img src={imageThree} alt="AI at Spotify" loading="lazy" />
         <img src={imageFour} alt="AI at Spotify" loading="lazy" />
-        <img src={imageFive} alt="AI at Spotify" loading="lazy" />
-        <img src={imageSix} alt="AI at Spotify" loading="lazy" />
+        <div className="flex flex-col gap-[16px] lg:flex-row">
+          <img
+            src={imageFive}
+            alt="AI at Spotify"
+            loading="lazy"
+            className="max-w-[400px]  h-auto"
+          />
+          <img
+            src={imageSix}
+            alt="AI at Spotify"
+            loading="lazy"
+            className="max-w-[400px] h-auto"
+          />
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import "../App.css";
 import { Outlet, Link } from "react-router-dom";
+import ReactPlayer from "react-player";
 
 function Home() {
   return (
@@ -11,6 +12,11 @@ function Home() {
         <h1 className="text-2xl font-semibold pt-[160px]">
           Hi there, I'm Michael.
         </h1>
+        <ReactPlayer
+          url="https://vimeo.com/678435899?share=copy"
+          controls="true"
+          width="100%"
+        />
         <div className="flex flex-col gap-[16px]">
           <p className="text-lg">
             I've been in charge of Product & Brand Design at{" "}
