@@ -22,7 +22,7 @@ function ProjectOne() {
         <img src={imageOne} alt="AI at Spotify" />
 
         <div className="flex flex-col gap-[16px]">
-          <p className="text-4xl max-w-3xl text-left py-[160px]">
+          <p className="text-4xl max-w-3xl text-left py-[160px] leading-tight">
             A look and feel for the machine learning engineers at Spotify. I
             worked directly with VPs in engineering, product, and design to
             establish typography, color, and layout styling that aligned with

@@ -6,6 +6,7 @@ import imageThree from "../assets/Daysheets_3.png";
 import imageFour from "../assets/Daysheets_4.png";
 import imageFive from "../assets/Daysheets_5.gif";
 import imageSix from "../assets/Daysheets_6.png";
+import imageSeven from "../assets/Daysheets_7.png";
 
 function ProjectFour() {
   return (
@@ -26,6 +27,7 @@ function ProjectFour() {
             every day should be anything but.
           </h1>
         </div>
+        <img src={imageSeven} alt="AI at Spotify" />
         <img src={imageTwo} alt="AI at Spotify" />
         <img src={imageThree} alt="AI at Spotify" />
         <img src={imageFour} alt="AI at Spotify" />
