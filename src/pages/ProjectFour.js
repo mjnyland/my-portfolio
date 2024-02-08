@@ -19,10 +19,10 @@ function ProjectFour() {
 
         <img src={imageOne} alt="AI at Spotify" />
         <div className="flex">
-          <h1 className="text-4xl max-w-3xl text-left py-[160px]">
+          <h1 className="text-4xl max-w-3xl text-left py-[160px] leading-tight">
             Daysheets is a group communication tool for Artists on tour. I
             simplified our navigation, upgraded our visual design, and added a
-            map view. Our user's lives were chaotic enough - the tool they rely
+            map view. Our users lives were chaotic enough - the tool they rely
             on every day should be anything but.
           </h1>
         </div>
