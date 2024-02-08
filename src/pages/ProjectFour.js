@@ -22,8 +22,8 @@ function ProjectFour() {
           <h1 className="text-4xl max-w-3xl text-left py-[160px] leading-tight">
             Daysheets is a group communication tool for Artists on tour. I
             simplified our navigation, upgraded our visual design, and added a
-            map view. Our users lives were chaotic enough - the tool they rely
-            on every day should be anything but.
+            map view. Our users lives are chaotic enough - the tool they rely on
+            every day should be anything but.
           </h1>
         </div>
         <img src={imageTwo} alt="AI at Spotify" />
