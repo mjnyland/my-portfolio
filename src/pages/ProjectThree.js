@@ -8,7 +8,7 @@ import imageFive from "../assets/Crewsheets_0.png";
 
 function ProjectThree() {
   return (
-    <div className=" m-[80px]">
+    <div className=" m-[80px] pb-[160px]">
       <div className="flex flex-col gap-[32px]">
         <Link className="font-blue" to="/">
           <div className="cursor-pointer">

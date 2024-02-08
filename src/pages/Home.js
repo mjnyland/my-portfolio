@@ -55,15 +55,15 @@ function Home() {
         <div className="pb-[64px]">
           <h3 className="text-lg pb-[16px]">Projects:</h3>
           <div className="flex flex-col items-left justify-center gap-[16px]">
-            <Link className="font-blue" to="ProjectTwo">
-              <h1 className="text-md font-semibold under">SBWC Mobile App</h1>
-              <p>The worlds easisest to use powerlifting app.</p>
-            </Link>
             <Link className="font-blue" to="ProjectFour">
               <h1 className="text-md font-semibold">Daysheets</h1>
               <p>
                 Product Design for the worlds biggest artists, and their crew.
               </p>
+            </Link>
+            <Link className="font-blue" to="ProjectTwo">
+              <h1 className="text-md font-semibold under">SBWC Mobile App</h1>
+              <p>The worlds easisest to use powerlifting app.</p>
             </Link>
             <Link className="font-blue" to="ProjectOne">
               <h1 className="text-md font-semibold">AI at Spotify</h1>

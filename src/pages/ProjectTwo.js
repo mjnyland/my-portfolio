@@ -10,7 +10,7 @@ import imageSeven from "../assets/SBWC_Home_v1.1.png";
 
 function ProjectTwo() {
   return (
-    <div className=" m-[80px]">
+    <div className=" m-[80px] pb-[160px]">
       <div className="flex flex-col gap-[32px]">
         <Link className="font-blue" to="/">
           <div className="cursor-pointer">
