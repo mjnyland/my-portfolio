@@ -13,7 +13,7 @@ function Home() {
           <p className="text-lg pt-[32px]">
             I've been in charge of Product & Brand Design at{" "}
             <a
-              className="font-bold"
+              className="font-bold cursor-pointer"
               href="https://www.daysheets.com"
               target="_blank"
             >
