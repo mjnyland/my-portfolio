@@ -4,28 +4,29 @@ import ReactPlayer from "react-player";
 
 function Home() {
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-2 grid-rows-1 max-w-[1600px]">
-      <div className="flex flex-col max-w-xl px-[64px]">
-        <h1 className="text-3xl font-semibold pt-[160px]">
+    <div className="grid grid-cols-1 2xl:grid-cols-2 grid-rows-1 max-w-[1920px]">
+      <div className="flex flex-col max-w-4xl px-[64px]">
+        <h1 className="text-4xl font-semibold pt-[160px]">
           Hi there, I'm Michael.
         </h1>
         <div className="flex flex-col gap-[16px]">
-          <p className="text-lg pt-[32px]">
-            I've been in charge of Product & Brand Design at{" "}
+          <p className="text-2xl lg:text-4xl pt-[32px] leading-tight">
+            I'm a designer with 6+ years of experience. I'm currently in charge
+            of Product & Brand Design at{" "}
             <a
               className="font-bold cursor-pointer"
               href="https://www.daysheets.com"
               target="_blank"
             >
-              Daysheets
+              Daysheets.
             </a>{" "}
-            for over a year now. I live in Brooklyn, by way of Chicago. I'm
-            currently looking for full-time roles. Mostly with startups, but I'm
-            open to larger companies as well.
+            I live in Brooklyn, by way of Chicago. I'm currently looking for
+            full-time roles. Mostly with startups, but I'm open to larger
+            companies as well.
           </p>
         </div>
-        <div className="flex flex-col gap-[16px] py-[32px]">
-          <p className="text-lg ">Experience:</p>
+        <div className="flex flex-col gap-[16px] py-[64px]">
+          <p className="text-2xl lg:text-3xl pb-[16px]">Experience:</p>
           <div className="grid grid-cols-2 grid-rows-3 gap-y-[24px]">
             <div>
               <h3 className="text-lg font-semibold">Daysheets</h3>
@@ -51,10 +52,10 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col xl:pt-[160px]">
-        <div className="flex flex-col items-left gap-[16px] max-w-xl px-[64px] xl:px-[0px]">
+      <div className="flex flex-col 2xl:pt-[160px]">
+        <div className="flex flex-col items-left gap-[16px] max-w-xl px-[64px] 2xl:px-[0px]">
           <div className="pb-[32px] gap-[16px] flex flex-col">
-            <h3 className="text-lg">Projects:</h3>
+            <h3 className="text-2xl lg:text-3xl pb-[16px]">Projects:</h3>
             <div className="flex flex-col items-left justify-center gap-[16px]">
               <Link className="font-blue" to="ProjectFour">
                 <h1 className="text-lg font-semibold">Daysheets</h1>
@@ -77,7 +78,7 @@ function Home() {
             </div>
           </div>
           <div className="flex flex-col gap-[16px]">
-            <h3 className="text-lg">Motion Reel:</h3>
+            <h3 className="text-2xl lg:text-3xl pb-[16px]">Motion Reel:</h3>
             <ReactPlayer
               url="https://vimeo.com/678435899?share=copy"
               controls="true"

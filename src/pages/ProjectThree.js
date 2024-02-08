@@ -19,13 +19,10 @@ function ProjectThree() {
         <img src={imageOne} alt="AI at Spotify" />
 
         <div className="flex flex-col gap-[16px]">
-          <div className="flex flex-col lg:justify-between lg:flex-row">
-            <p>Crewsheets</p>
-            <p className="max-w-lg">
-              A concept for a web app that allows venues to souce talent for
-              live events.
-            </p>
-          </div>
+          <p className="text-4xl max-w-3xl text-left py-[160px]">
+            A concept for a web app that allows venues to souce talent for live
+            events.
+          </p>
         </div>
         {/*<img src={imageTwo} alt="AI at Spotify" />*/}
         <img src={imageTwo} alt="AI at Spotify" loading="lazy" />

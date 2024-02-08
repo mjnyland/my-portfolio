@@ -21,7 +21,7 @@ function ProjectTwo() {
         <img src={imageOne} alt="AI at Spotify" />
 
         <div className="flex flex-col gap-[16px]">
-          <p className="text-4xl max-w-3xl text-left py-[160px]">
+          <p className="text-4xl max-w-3xl text-left py-[160px] leading-tight">
             Redesigning the mobile app the South Brooklyn Weightlifting Club
             uses for it’s members.
           </p>
