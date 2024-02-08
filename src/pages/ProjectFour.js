@@ -18,11 +18,12 @@ function ProjectFour() {
         </Link>
 
         <img src={imageOne} alt="AI at Spotify" />
-        <div className="cursor-pointer flex">
-          <h1 className="text-4xl max-w-2xl text-left py-[160px]">
+        <div className="flex">
+          <h1 className="text-4xl max-w-3xl text-left py-[160px]">
             Daysheets is a group communication tool for Artists on tour. I
-            redesigned our Mobile App to simplify, and make our users lives less
-            chaotic.
+            simplified our navigation, upgraded our visual design, and added a
+            map view. Our user's lives were chaotic enough - the tool they rely
+            on every day should be anything but.
           </h1>
         </div>
         <img src={imageTwo} alt="AI at Spotify" />

@@ -22,34 +22,13 @@ function ProjectOne() {
         <img src={imageOne} alt="AI at Spotify" />
 
         <div className="flex flex-col gap-[16px]">
-          <div className="flex flex-col lg:justify-between lg:flex-row">
-            <p>Personalization at Spotify</p>
-            <p className="max-w-lg">
-              The talented machine learning engineers at Spotify needed a look
-              and feel to match the exciting work they were doing at the
-              intersection of music and AI. I worked directly with VPs in
-              engineering, product, and design to establish typography, color,
-              and layout styling that aligned with their mission statement as an
-              organization.
-            </p>
-          </div>
-          <div className="flex flex-row ml-auto max-w-lg">
-            <div className="flex flex-col">
-              <p>Details:</p>
-              <div>
-                <p>2022</p>
-                <p>Spotify</p>
-                <p>Internal Brand Designer</p>
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <p>Note:</p>
-              <p>
-                Visual details were adjusted after my layoff. They don’t know
-                what they’re missing ;)
-              </p>
-            </div>
-          </div>
+          <p className="text-4xl max-w-3xl text-left py-[160px]">
+            A look and feel for the machine learning engineers at Spotify. I
+            worked directly with VPs in engineering, product, and design to
+            establish typography, color, and layout styling that aligned with
+            their mission statement at the intersection of music and AI. Visual
+            Details were changed after I left the company.
+          </p>
         </div>
         <ReactPlayer
           url="https://vimeo.com/909835747?share=copy"

@@ -21,13 +21,10 @@ function ProjectTwo() {
         <img src={imageOne} alt="AI at Spotify" />
 
         <div className="flex flex-col gap-[16px]">
-          <div className="flex flex-col lg:justify-between lg:flex-row">
-            <p>South Brooklyn Weightlifting Club</p>
-            <p className="max-w-lg">
-              Redesigning the mobile app the South Brooklyn Weightlifting Club
-              uses for it’s members.
-            </p>
-          </div>
+          <p className="text-4xl max-w-3xl text-left py-[160px]">
+            Redesigning the mobile app the South Brooklyn Weightlifting Club
+            uses for it’s members.
+          </p>
         </div>
         {/*<img src={imageTwo} alt="AI at Spotify" />*/}
         <img src={imageThree} alt="AI at Spotify" loading="lazy" />
