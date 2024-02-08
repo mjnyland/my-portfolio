@@ -46,7 +46,7 @@ function Home() {
             </div>
             <div className="flex flex-col">
               <h3 className="text-md">Motion Designer</h3>
-              <h3 className="text-md text-slate-500">2018 - 2020</h3>
+              <h3 className="text-md text-slate-500">2020 - 2022</h3>
             </div>
           </div>
         </div>
