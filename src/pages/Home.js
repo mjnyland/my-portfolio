@@ -64,7 +64,7 @@ function Home() {
               </Link>
               <Link className="font-blue" to="ProjectTwo">
                 <h1 className="text-lg font-semibold under">SBWC Mobile App</h1>
-                <p>The worlds easisest to use powerlifting app.</p>
+                <p>The worlds easiest to use powerlifting app.</p>
               </Link>
               <Link className="font-blue" to="ProjectOne">
                 <h1 className="text-lg font-semibold">AI at Spotify</h1>
