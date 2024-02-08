@@ -21,8 +21,7 @@ function Home() {
               Daysheets.
             </a>{" "}
             I live in Brooklyn, by way of Chicago. I'm currently looking for
-            full-time roles. Mostly with startups, but I'm open to larger
-            companies as well.
+            full-time roles with early-stage startups.
           </p>
         </div>
         <div className="flex flex-col gap-[16px] py-[64px]">
