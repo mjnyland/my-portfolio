@@ -3,9 +3,11 @@ import { Outlet, Link } from "react-router-dom";
 import imageOne from "../assets/PZN_HeroImage_v2.png";
 import imageTwo from "../assets/MoodCircle.gif";
 import imageThree from "../assets/PZN_HatMockup.png";
-import imageFour from "../assets/MissionVisionPurpose_v2.gif";
+import imageFour from "../assets/MissionVisionPurpose_v2.2.gif";
 import imageFive from "../assets/PZN_Tote.png";
 import imageSix from "../assets/PZN_TShirt.png";
+import imageSeven from "../assets/PZN_Slides_v2.png";
+import imageEight from "../assets/PZN_Colors_v2.png";
 import Vimeo from "@u-wave/react-vimeo";
 import ReactPlayer from "react-player";
 
@@ -35,9 +37,11 @@ function ProjectOne() {
           width="100%"
         />
         <img src={imageTwo} alt="AI at Spotify" loading="lazy" />
+        <img src={imageEight} alt="AI at Spotify" loading="lazy" />
         <img src={imageFour} alt="AI at Spotify" loading="lazy" />
         <img src={imageThree} alt="AI at Spotify" loading="lazy" />
-        <div className="flex flex-col gap-[16px] lg:flex-row">
+        <img src={imageSeven} alt="AI at Spotify" loading="lazy" />
+        {/*         <div className="flex flex-col gap-[16px] lg:flex-row">
           <img
             src={imageFive}
             alt="AI at Spotify"
@@ -50,7 +54,7 @@ function ProjectOne() {
             loading="lazy"
             className="max-w-[400px] h-auto"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
