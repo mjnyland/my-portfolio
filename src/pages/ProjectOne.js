@@ -2,7 +2,7 @@ import "../App.css";
 import { Outlet, Link } from "react-router-dom";
 import imageOne from "../assets/PZN_HeroImage_v2.png";
 import imageTwo from "../assets/MoodCircle.gif";
-import imageThree from "../assets/PZN_MissionVisionPurpose_02.png";
+import imageThree from "../assets/PZN_HatMockup.png";
 import imageFour from "../assets/PZN_MissionVisionPurpose_03.png";
 import imageFive from "../assets/PZN_Tote.png";
 import imageSix from "../assets/PZN_TShirt.png";
@@ -35,8 +35,8 @@ function ProjectOne() {
           width="100%"
         />
         <img src={imageTwo} alt="AI at Spotify" loading="lazy" />
-        <img src={imageThree} alt="AI at Spotify" loading="lazy" />
         <img src={imageFour} alt="AI at Spotify" loading="lazy" />
+        <img src={imageThree} alt="AI at Spotify" loading="lazy" />
         <div className="flex flex-col gap-[16px] lg:flex-row">
           <img
             src={imageFive}
