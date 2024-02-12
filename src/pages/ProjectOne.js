@@ -1,7 +1,7 @@
 import "../App.css";
 import { Outlet, Link } from "react-router-dom";
 import imageOne from "../assets/PZN_HeroImage_v2.png";
-import imageTwo from "../assets/PZN_MissionVisionPurpose_01.png";
+import imageTwo from "../assets/MoodCircle.gif";
 import imageThree from "../assets/PZN_MissionVisionPurpose_02.png";
 import imageFour from "../assets/PZN_MissionVisionPurpose_03.png";
 import imageFive from "../assets/PZN_Tote.png";
@@ -20,7 +20,6 @@ function ProjectOne() {
         </Link>
 
         <img src={imageOne} alt="AI at Spotify" />
-
         <div className="flex flex-col gap-[16px]">
           <p className="text-4xl max-w-3xl text-left py-[160px] leading-tight">
             A look and feel for the machine learning engineers at Spotify. I
@@ -31,11 +30,10 @@ function ProjectOne() {
           </p>
         </div>
         <ReactPlayer
-          url="https://vimeo.com/909835747?share=copy"
+          url="https://vimeo.com/912109310?share=copy"
           controls="true"
           width="100%"
         />
-
         <img src={imageTwo} alt="AI at Spotify" loading="lazy" />
         <img src={imageThree} alt="AI at Spotify" loading="lazy" />
         <img src={imageFour} alt="AI at Spotify" loading="lazy" />
