@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import imageOne from "../assets/PZN_HeroImage_v2.png";
 import imageTwo from "../assets/MoodCircle.gif";
 import imageThree from "../assets/PZN_HatMockup.png";
-import imageFour from "../assets/PZN_MissionVisionPurpose_03.png";
+import imageFour from "../assets/MissionVisionPurpose_v2.gif";
 import imageFive from "../assets/PZN_Tote.png";
 import imageSix from "../assets/PZN_TShirt.png";
 import Vimeo from "@u-wave/react-vimeo";
