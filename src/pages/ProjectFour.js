@@ -7,6 +7,7 @@ import imageFour from "../assets/Daysheets_4.png";
 import imageFive from "../assets/Daysheets_5.gif";
 import imageSix from "../assets/Daysheets_6.png";
 import imageSeven from "../assets/Daysheets_7.png";
+import imageEight from "../assets/Daysheets_8.png";
 
 function ProjectFour() {
   return (
@@ -31,6 +32,7 @@ function ProjectFour() {
         <img src={imageTwo} alt="AI at Spotify" />
         <img src={imageThree} alt="AI at Spotify" />
         <img src={imageFour} alt="AI at Spotify" />
+        <img src={imageEight} alt="AI at Spotify" />
 
         {/* Adjusted width of the flex container */}
         <div className="flex max-w-full max-h-[464px]">
