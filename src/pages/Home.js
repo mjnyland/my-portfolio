@@ -77,7 +77,7 @@ function Home() {
                 AI at Spotify
               </h1>
               <p className="text-xl">
-                Brand Idenity, Visual Design, Presentation Design
+                Brand Idenity, Motion Design, Presentation Design
               </p>
             </Link>
             <hr />
