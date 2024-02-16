@@ -1,14 +1,15 @@
 import "../App.css";
 import { Outlet, Link } from "react-router-dom";
 import ReactPlayer from "react-player";
+import { HiExternalLink } from "react-icons/hi";
 
 function Home() {
   return (
     <div className="flex flex-col gap-[120px] mx-[80px] my-[160px] pb-[160px]">
       <div className="flex flex-col max-w-3xl pb-[80px]">
         <p className="text-3xl">{"Hi! I'm Michael."}</p>
-        <div className="flex flex-col gap-[16px]">
-          <p className="text-2xl lg:text-3xl pt-[32px]">
+        <div className="flex flex-col">
+          <p className="text-2xl lg:text-3xl pt-[32px] pb-[16px]">
             I'm a product and brand designer with 6 years of experience.
             Currently I'm the lead designer at{" "}
             <a
@@ -20,6 +21,16 @@ function Home() {
             </a>{" "}
             I'm looking for full-time roles with early-stage startups.
           </p>
+          <div className="flex flex-row items-center">
+            <a
+              className="cursor-pointer tracking-tight underline underline-offset-2 text-lg pr-[4px]"
+              href="https://vimeo.com/678435899?share=copy"
+              target="_blank"
+            >
+              Motion Design Reel
+            </a>{" "}
+            <HiExternalLink />
+          </div>
           {/*<a
             className="font-semibold cursor-pointer text-blue-600 tracking-tight underline"
             href="https://www.loom.com/share/2185b17a8b5b49baa2ee4b95691379dd?sid=3040b0fd-6865-400e-8579-736461c5d79b"
@@ -98,16 +109,6 @@ function Home() {
             </Link>
           </div>
         </div>
-      </div>
-      <div className="flex flex-col gap-[16px]">
-        {" "}
-        {/* Reel Container */}
-        <h3 className="text-2xl lg:text-3xl pb-[16px]">Motion Reel</h3>
-        <ReactPlayer
-          url="https://vimeo.com/678435899?share=copy"
-          controls="true"
-          width="100%"
-        />
       </div>
     </div>
   );
