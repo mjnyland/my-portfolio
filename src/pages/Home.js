@@ -73,7 +73,7 @@ function Home() {
       <div className="flex flex-col">
         {/* Projects Container */}
         <div className="pb-[32px] flex flex-col gap-[8px]">
-          <h3 className="text-3xl lg:text-3xl">Selected Projects</h3>
+          <h3 className="text-3xl lg:text-3xl">Projects</h3>
           <hr />
           <div className="flex flex-col items-left justify-center gap-[32px]">
             <Link className="font-blue pt-[24px]" to="ProjectFour">
