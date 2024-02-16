@@ -21,6 +21,13 @@ function Home() {
             I live in Brooklyn, by way of Chicago. I'm currently looking for
             full-time roles with early-stage startups.
           </p>
+          <a
+            className="font-bold cursor-pointer text-blue-600"
+            href="https://www.loom.com/share/2185b17a8b5b49baa2ee4b95691379dd?sid=3040b0fd-6865-400e-8579-736461c5d79b"
+            target="_blank"
+          >
+            Watch my AMA
+          </a>
         </div>
       </div>
       <div className="flex flex-col gap-[16px] max-w-3xl">
