@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 function Home() {
   return (
     <div className="flex flex-col gap-[120px] mx-[80px] my-[160px] pb-[160px]">
-      <div className="flex flex-col max-w-3xl">
+      <div className="flex flex-col max-w-3xl pb-[80px]">
         <h1 className="text-4xl font-semibold">Hi there, I'm Michael.</h1>
         <div className="flex flex-col gap-[16px]">
           <p className="text-2xl lg:text-3xl pt-[32px]">
