@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-[80px] mx-[80px] my-[160px] pb-[160px]">
+    <div className="flex flex-col gap-[120px] mx-[80px] my-[160px] pb-[160px]">
       <div className="flex flex-col max-w-3xl">
         <h1 className="text-4xl font-semibold">Hi there, I'm Michael.</h1>
         <div className="flex flex-col gap-[16px]">
@@ -30,8 +30,9 @@ function Home() {
           </a>*/}
         </div>
       </div>
+      {/*
       <div className="flex flex-col gap-[16px] max-w-3xl">
-        {/* Experience Container */}
+        
         <p className="text-2xl lg:text-3xl pb-[16px]">Experience</p>
         <hr />
         <div className="grid grid-cols-2 grid-rows-3 gap-y-[24px]">
@@ -57,7 +58,8 @@ function Home() {
             <h3 className="text-md text-slate-500">2020 - 2022</h3>
           </div>
         </div>
-      </div>
+      </div>*/}
+
       <div className="flex flex-col">
         {/* Projects Container */}
         <div className="flex flex-col items-left gap-[16px]">
