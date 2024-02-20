@@ -8,6 +8,8 @@ import imageFive from "../assets/Daysheets_5.gif";
 import imageSix from "../assets/Daysheets_6.png";
 import imageSeven from "../assets/Daysheets_7.png";
 import imageEight from "../assets/Daysheets_8.png";
+import imageNine from "../assets/Daysheets_9.png";
+import imageTen from "../assets/Daysheets_10.png";
 
 function ProjectFour() {
   return (
@@ -26,6 +28,13 @@ function ProjectFour() {
             simplified our navigation, upgraded our visual design, and added a
             map view. Our users lives are chaotic enough - the tool they rely on
             every day should be anything but.
+          </h1>
+        </div>
+        <img src={imageNine} alt="AI at Spotify" />
+        <div className="flex">
+          <h1 className="text-4xl max-w-3xl text-left py-[160px] leading-tight">
+            How might we improve navigation and overall experience for users who
+            are busy, and have a high standard for design?
           </h1>
         </div>
         <img src={imageSeven} alt="AI at Spotify" />
@@ -47,6 +56,7 @@ function ProjectFour() {
             className="flex-shrink-0 object-contain max-h-full max-w-[50%]"
           />
         </div>
+        <img src={imageTen} alt="AI at Spotify" />
       </div>
     </div>
   );
