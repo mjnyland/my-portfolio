@@ -96,9 +96,7 @@ function Home() {
               <h1 className="text-6xl pb-[8px] tracking-[-1px]">
                 SBWC Mobile App
               </h1>
-              <p className="text-xl">
-                Product Design, User Research, Prototyping
-              </p>
+              <p className="text-xl">Product Design, Prototyping</p>
             </Link>
             <hr />
             <Link className="font-blue" to="ProjectThree">
