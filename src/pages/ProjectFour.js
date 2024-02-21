@@ -30,13 +30,16 @@ function ProjectFour() {
             every day should be anything but.
           </h1>
         </div>
-        <img src={imageNine} alt="AI at Spotify" />
+        {/*
+                <img src={imageNine} alt="AI at Spotify" />
         <div className="flex">
           <h1 className="text-4xl max-w-3xl text-left py-[160px] leading-tight">
             How might we improve navigation and overall experience for users who
             are busy, and have a high standard for design?
           </h1>
         </div>
+         */}
+
         <img src={imageSeven} alt="AI at Spotify" />
         <img src={imageTwo} alt="AI at Spotify" />
         <img src={imageThree} alt="AI at Spotify" />
