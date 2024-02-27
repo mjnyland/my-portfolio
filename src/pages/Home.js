@@ -31,6 +31,16 @@ function Home() {
             </a>{" "}
             <HiExternalLink />
           </div>
+          <div className="flex flex-row items-center">
+            <a
+              className="cursor-pointer tracking-tight underline underline-offset-2 text-lg pr-[4px]"
+              href="https://drive.google.com/file/d/1vGXbm5Fs2IDuZlXnqoLNYG1L5uxycjGz/view?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </a>{" "}
+            <HiExternalLink />
+          </div>
           {/*<a
             className="font-semibold cursor-pointer text-blue-600 tracking-tight underline"
             href="https://www.loom.com/share/2185b17a8b5b49baa2ee4b95691379dd?sid=3040b0fd-6865-400e-8579-736461c5d79b"
