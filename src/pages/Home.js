@@ -34,7 +34,7 @@ function Home() {
           <div className="flex flex-row items-center">
             <a
               className="cursor-pointer tracking-tight underline underline-offset-2 text-lg pr-[4px]"
-              href="https://drive.google.com/file/d/1lL8zESk8dJfSH8ksh1cFaC1AR68U6PND/view?usp=sharing"
+              href="https://drive.google.com/file/d/1w2NO16XVEbMI9Wg4WXFkvigV3G9KzBKb/view?usp=sharing"
               target="_blank"
             >
               Resume
