@@ -14,10 +14,10 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" index element={<Home />} />
-        <Route path="ProjectOne" index element={<ProjectOne />} />
-        <Route path="ProjectTwo" index element={<ProjectTwo />} />
-        <Route path="ProjectThree" index element={<ProjectThree />} />
-        <Route path="ProjectFour" index element={<ProjectFour />} />
+        <Route path="/ProjectOne" index element={<ProjectOne />} />
+        <Route path="/ProjectTwo" index element={<ProjectTwo />} />
+        <Route path="/ProjectThree" index element={<ProjectThree />} />
+        <Route path="/ProjectFour" index element={<ProjectFour />} />
       </Routes>
     </BrowserRouter>
   );
