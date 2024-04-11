@@ -6,7 +6,7 @@ import { HiExternalLink, HiArrowNarrowRight } from "react-icons/hi";
 function Home() {
   return (
     <div className="flex flex-col gap-[64px] mt-[160px] max-w-xl px-[32px] mx-auto">
-      <div className="flex flex-col p-[4px]">
+      <div className="flex flex-col p-[8px]">
         <p className="text-3xl">{"Michael Nyland"}</p>
         <div className="flex flex-col">
           <p className="text-base pt-[32px] pb-[24px]">
@@ -50,10 +50,10 @@ function Home() {
       <div className="flex flex-col max-w-">
         {/* Projects Container */}
         <div className="flex flex-col">
-          <h3 className="text-base text-gray-500 p-[4px] mb-[8px]">Projects</h3>
+          <h3 className="text-base text-gray-500 p-[8px] mb-[8px]">Projects</h3>
           <div className="flex flex-col items-left justify-center gap-[16px]">
             <Link
-              className="font-blue p-[4px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
               to="Daysheets"
             >
               <div className="flex flex-col">
@@ -70,7 +70,7 @@ function Home() {
             </Link>
 
             <Link
-              className="font-blue p-[4px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
               to="Spotify"
             >
               <div>
@@ -86,7 +86,7 @@ function Home() {
               </div>
             </Link>
             <Link
-              className="font-blue p-[4px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
               to="SBWC"
             >
               <div>
@@ -102,7 +102,7 @@ function Home() {
               </div>
             </Link>
             <Link
-              className="font-blue p-[4px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
               to="Crewsheets"
             >
               <div>
