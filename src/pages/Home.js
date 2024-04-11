@@ -5,13 +5,13 @@ import { HiExternalLink } from "react-icons/hi";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-[120px] mx-[80px] my-[160px] pb-[160px]">
-      <div className="flex flex-col max-w-3xl pb-[80px]">
-        <p className="text-3xl">{"Hi! I'm Michael."}</p>
+    <div className="flex flex-col gap-[64px] mt-[160px] max-w-xl px-[32px] mx-auto">
+      <div className="flex flex-col">
+        <p className="text-3xl">{"Michael Nyland"}</p>
         <div className="flex flex-col">
-          <p className="text-2xl lg:text-3xl pt-[32px] pb-[16px]">
-            I'm a product and brand designer with 6 years of experience.
-            Currently I'm the lead designer at{" "}
+          <p className="text-lg pt-[32px] pb-[24px]">
+            Product and brand designer with 6 years of experience. I'm currently
+            the lead designer at{" "}
             <a
               className="font-regular cursor-pointer underline underline-offset-2"
               href="https://www.daysheets.com"
@@ -19,99 +19,68 @@ function Home() {
             >
               Daysheets.
             </a>{" "}
-            I'm looking for full-time roles with early-stage startups.
+            I'm looking for full-time roles with early-stage startups. I live in
+            Brooklyn, but I'm open to relocation for the right opportunity.
           </p>
-          <div className="flex flex-row items-center">
-            <a
-              className="cursor-pointer tracking-tight underline underline-offset-2 text-lg pr-[4px]"
-              href="https://vimeo.com/678435899?share=copy"
-              target="_blank"
-            >
-              Motion Design Reel
-            </a>{" "}
-            <HiExternalLink />
+          <div className="flex flex-row gap-[24px]">
+            <div className="flex flex-row items-center ">
+              <a
+                className="cursor-pointer hover:underline underline-offset-2 text-base font-medium pr-[4px]"
+                href="https://drive.google.com/file/d/1w2NO16XVEbMI9Wg4WXFkvigV3G9KzBKb/view?usp=sharing"
+                target="_blank"
+              >
+                Resume
+              </a>{" "}
+              <HiExternalLink />
+            </div>
+            <div className="flex flex-row items-center">
+              <a
+                className="cursor-pointer hover:underline underline-offset-2 text-base font-medium pr-[4px]"
+                href="https://vimeo.com/678435899?share=copy"
+                target="_blank"
+              >
+                Motion Design Reel
+              </a>{" "}
+              <HiExternalLink />
+            </div>
           </div>
-          <div className="flex flex-row items-center">
-            <a
-              className="cursor-pointer tracking-tight underline underline-offset-2 text-lg pr-[4px]"
-              href="https://drive.google.com/file/d/1w2NO16XVEbMI9Wg4WXFkvigV3G9KzBKb/view?usp=sharing"
-              target="_blank"
-            >
-              Resume
-            </a>{" "}
-            <HiExternalLink />
-          </div>
-          {/*<a
-            className="font-semibold cursor-pointer text-blue-600 tracking-tight underline"
-            href="https://www.loom.com/share/2185b17a8b5b49baa2ee4b95691379dd?sid=3040b0fd-6865-400e-8579-736461c5d79b"
-            target="_blank"
-          >
-            Watch my AMA
-          </a>*/}
         </div>
       </div>
-      {/*
-      <div className="flex flex-col gap-[16px] max-w-3xl">
-        
-        <p className="text-2xl lg:text-3xl pb-[16px]">Experience</p>
-        <hr />
-        <div className="grid grid-cols-2 grid-rows-3 gap-y-[24px]">
-          <div>
-            <h3 className="text-lg font-semibold">Daysheets</h3>
-          </div>
-          <div className="flex flex-col">
-            <h3 className="text-md">Product & Brand Designer</h3>
-            <h3 className="text-md text-slate-500">2023 - Present</h3>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold">Spotify</h3>
-          </div>
-          <div className="flex flex-col">
-            <h3 className="text-md">Internal Brand Design</h3>
-            <h3 className="text-md text-slate-500">2022-2023</h3>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold">Banner</h3>
-          </div>
-          <div className="flex flex-col">
-            <h3 className="text-md">Motion Designer</h3>
-            <h3 className="text-md text-slate-500">2020 - 2022</h3>
-          </div>
-        </div>
-      </div>*/}
 
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full">
         {/* Projects Container */}
-        <div className="pb-[32px] flex flex-col gap-[8px]">
-          <h3 className="text-3xl lg:text-3xl">Projects</h3>
-          <hr />
-          <div className="flex flex-col items-left justify-center gap-[32px]">
-            <Link className="font-blue pt-[24px]" to="ProjectFour">
-              <h1 className="text-6xl pb-[8px] tracking-[-1px]">Daysheets</h1>
-              <p className="text-xl">
+        <div className="flex flex-col">
+          <h3 className="text-base">Projects</h3>
+          <div className="flex flex-col items-left justify-center gap-[16px]">
+            <Link className="font-blue pt-[24px]" to="Daysheets">
+              <h1 className="text-base font-medium hover:underline">
+                Daysheets
+              </h1>
+              <p className="text-sm text-gray-500">
                 Product Design, User Research, Prototyping
               </p>
             </Link>
-            <hr />
-            <Link className="font-blue" to="ProjectOne">
-              <h1 className="text-6xl pb-[8px] tracking-[-1px]">
+            <Link className="font-blue" to="Spotify">
+              <h1 className="text-base font-medium hover:underline">
                 AI at Spotify
               </h1>
-              <p className="text-xl">
+              <p className="text-sm text-gray-500">
                 Brand Idenity, Motion Design, Presentation Design
               </p>
             </Link>
-            <hr />
-            <Link className="font-blue" to="ProjectTwo">
-              <h1 className="text-6xl pb-[8px] tracking-[-1px]">
+            <Link className="font-blue" to="SBWC">
+              <h1 className="text-base font-medium hover:underline ">
                 SBWC Mobile App
               </h1>
-              <p className="text-xl">Product Design, Prototyping</p>
+              <p className="text-sm text-gray-500">
+                Product Design, Prototyping
+              </p>
             </Link>
-            <hr />
-            <Link className="font-blue" to="ProjectThree">
-              <h1 className="text-6xl pb-[8px] tracking-[-1px]">Crewsheets</h1>
-              <p className="text-xl">
+            <Link className="font-blue" to="Crewsheets">
+              <h1 className="text-base font-medium hover:underline">
+                Crewsheets
+              </h1>
+              <p className="text-sm text-gray-500">
                 Product Design, Visual Design, Prototyping
               </p>
             </Link>

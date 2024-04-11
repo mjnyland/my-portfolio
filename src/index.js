@@ -15,10 +15,10 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" index element={<Home />} />
-        <Route path="/ProjectOne" index element={<ProjectOne />} />
-        <Route path="/ProjectTwo" index element={<ProjectTwo />} />
-        <Route path="/ProjectThree" index element={<ProjectThree />} />
-        <Route path="/ProjectFour" index element={<ProjectFour />} />
+        <Route path="/Daysheets" index element={<ProjectFour />} />
+        <Route path="/Spotify" index element={<ProjectOne />} />
+        <Route path="/SBWC" index element={<ProjectTwo />} />
+        <Route path="/Crewsheets" index element={<ProjectThree />} />
       </Routes>
     </BrowserRouter>
   );

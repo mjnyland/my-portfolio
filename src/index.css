@@ -5,7 +5,6 @@
 html,
 body,
 #root {
-  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -18,7 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f7fafc;
+  background-color: #fcfcfc;
 }
 
 code {
