@@ -9,8 +9,8 @@ function Home() {
       <div className="flex flex-col">
         <p className="text-3xl">{"Michael Nyland"}</p>
         <div className="flex flex-col">
-          <p className="text-lg pt-[32px] pb-[24px]">
-            Product and brand designer with 6 years of experience. I'm currently
+          <p className="text-base pt-[32px] pb-[24px]">
+            Product and brand designer with 6 years of experience, and currently
             the lead designer at{" "}
             <a
               className="font-regular cursor-pointer underline underline-offset-2"
@@ -20,7 +20,7 @@ function Home() {
               Daysheets.
             </a>{" "}
             I'm looking for full-time roles with early-stage startups. I live in
-            Brooklyn, but I'm open to relocation for the right opportunity.
+            Brooklyn, but I'm open to relocation.
           </p>
           <div className="flex flex-row gap-[24px]">
             <div className="flex flex-row items-center ">
@@ -50,7 +50,7 @@ function Home() {
       <div className="flex flex-col w-full">
         {/* Projects Container */}
         <div className="flex flex-col">
-          <h3 className="text-base">Projects</h3>
+          <h3 className="text-base text-gray-500">Projects</h3>
           <div className="flex flex-col items-left justify-center gap-[16px]">
             <Link className="font-blue pt-[24px]" to="Daysheets">
               <h1 className="text-base font-medium hover:underline">
