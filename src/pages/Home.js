@@ -53,7 +53,7 @@ function Home() {
           <h3 className="text-base text-gray-500 p-[8px] mb-[8px]">Projects</h3>
           <div className="flex flex-col items-left justify-center gap-[16px]">
             <Link
-              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-50 rounded group"
               to="Daysheets"
             >
               <div className="flex flex-col">
@@ -70,7 +70,7 @@ function Home() {
             </Link>
 
             <Link
-              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-50 rounded group"
               to="Spotify"
             >
               <div>
@@ -86,7 +86,7 @@ function Home() {
               </div>
             </Link>
             <Link
-              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-50 rounded group"
               to="SBWC"
             >
               <div>
@@ -102,7 +102,7 @@ function Home() {
               </div>
             </Link>
             <Link
-              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-50 rounded group"
               to="Crewsheets"
             >
               <div>
