@@ -78,7 +78,7 @@ function Home() {
                   AI at Spotify
                 </h1>
                 <p className="text-sm text-gray-500">
-                  Brand Idenity, Motion Design, Presentation Design
+                  Brand Identity, Motion Design, Presentation Design
                 </p>
               </div>
               <div className="my-auto ml-auto pr-[16px] hidden group-hover:block">
