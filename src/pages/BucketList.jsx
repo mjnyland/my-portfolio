@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HiArrowUpLeft } from "react-icons/hi2";
+import bermuda from "../assets/Bermuda.png";
 
 const BucketList = () => {
   return (
@@ -135,6 +136,25 @@ const BucketList = () => {
               <p className="text-sm text-gray-500 ml-auto hidden">
                 Dec. 2, 2024
               </p>
+            </div>
+
+            <div className="pt-[32px]">
+              <img
+                src={bermuda}
+                alt="A picture from my honeymoon"
+                className="rounded-lg"
+              />
+              <p className="text-sm text-gray-500 pt-[8px]">
+                A picture from my honeymoon
+              </p>
+            </div>
+
+            <div className="flex flex-col gap-[16px] pt-[32px]">
+              <hr />
+              <div className="flex">
+                <p className="text-gray-500 text-sm">Updated Apr. 2024</p>
+                <p className="text-gray-500 text-sm ml-auto">Made in NYC 🗽</p>
+              </div>
             </div>
           </div>
         </div>
