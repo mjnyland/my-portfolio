@@ -19,8 +19,8 @@ function Home() {
             >
               Daysheets.
             </a>{" "}
-            I'm looking for full-time roles with early-stage startups. I live in
-            Brooklyn, but I'm open to relocation.
+            I'm looking for full-time roles with startups. I live in Brooklyn,
+            but I'm open to relocation.
           </p>
           <div className="flex flex-row gap-[24px]">
             <div className="flex flex-row items-center ">
