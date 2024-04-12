@@ -5,7 +5,7 @@ import { HiExternalLink, HiArrowNarrowRight } from "react-icons/hi";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-[64px] mt-[80px] max-w-xl px-[32px] mx-auto">
+    <div className="flex flex-col gap-[32px] mt-[80px] max-w-xl px-[32px] mx-auto">
       <div className="flex flex-col p-[8px]">
         <p className="text-3xl">{"Michael Nyland"}</p>
         <div className="flex flex-col">
@@ -58,7 +58,7 @@ function Home() {
       <div className="flex flex-col">
         {/* Projects Container */}
         <div className="flex flex-col">
-          <h3 className="text-base text-gray-500 p-[8px]">Projects</h3>
+          <h3 className="text-sm text-gray-500 p-[8px]">Projects</h3>
           <div className="flex flex-col items-left justify-center gap-[16px]">
             <Link
               className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
