@@ -23,7 +23,7 @@ const AMA = () => {
                 </p>
                 <p className="text-sm text-gray-500">
                   Daysheets mobile app redesign. Check it out{" "}
-                  <Link to={"/Daysheets"} className="underline">
+                  <Link to={"/Daysheets"} className="underline cursor-pointer">
                     here
                   </Link>
                   {""}. I got to own the entire project from end-to-end. From
