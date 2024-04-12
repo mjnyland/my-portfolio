@@ -120,6 +120,13 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="flex flex-col gap-[16px]">
+        <hr />
+        <div className="flex">
+          <p className="text-gray-500 text-sm">Updated Apr. 2024</p>
+          <p className="text-gray-500 text-sm ml-auto">Made in NYC 🗽</p>
+        </div>
+      </div>
     </div>
   );
 }
