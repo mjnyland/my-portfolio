@@ -33,15 +33,14 @@ function Home() {
               </a>{" "}
               <HiExternalLink />
             </div>
+
             <div className="flex flex-row items-center">
-              <a
+              <Link
                 className="hover:cursor-pointer hover:underline underline-offset-2 text-base font-medium pr-[4px]"
-                href="https://vimeo.com/678435899?share=copy"
-                target="_blank"
+                to="/AMA"
               >
-                Motion Design Reel
-              </a>{" "}
-              <HiExternalLink />
+                Ask Me Anything
+              </Link>{" "}
             </div>
             <div className="flex flex-row items-center">
               <Link
@@ -125,6 +124,23 @@ function Home() {
                 <HiArrowNarrowRight />
               </div>
             </Link>
+            <a
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
+              href="https://vimeo.com/678435899?share=copy"
+              target="_blank"
+            >
+              <div>
+                <h1 className="text-base font-medium group-hover:underline">
+                  Motion Design Reel
+                </h1>
+                <p className="text-sm text-gray-500">
+                  Adobe After Effects, Adobe Premier
+                </p>
+              </div>
+              <div className="my-auto ml-auto pr-[16px] hidden group-hover:block">
+                <HiExternalLink />
+              </div>
+            </a>
           </div>
         </div>
       </div>

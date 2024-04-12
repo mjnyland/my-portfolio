@@ -10,6 +10,7 @@ import ProjectThree from "./pages/ProjectThree";
 import ProjectFour from "./pages/ProjectFour";
 import { Analytics } from "@vercel/analytics/react";
 import BucketList from "./pages/BucketList";
+import AMA from "./pages/AMA";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/SBWC" index element={<ProjectTwo />} />
         <Route path="/Crewsheets" index element={<ProjectThree />} />
         <Route path="/BucketList" index element={<BucketList />} />
+        <Route path="/AMA" index element={<AMA />} />
       </Routes>
     </BrowserRouter>
   );
