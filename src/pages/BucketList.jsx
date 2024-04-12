@@ -57,6 +57,18 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
+                <p className="font-medium">Buy the New York Jets</p>
+                <p className="text-sm text-gray-500">
+                  I'm coming for you, Gary V
+                </p>
+              </div>
+              <p className="text-sm text-gray-500 ml-auto hidden">
+                Dec. 2, 2024
+              </p>
+            </div>
+
+            <div className="flex flex-row">
+              <div className="flex flex-col">
                 <p className="font-medium">Learn Japanese</p>
                 <p className="text-sm text-gray-500">And visit Tokyo</p>
               </div>
