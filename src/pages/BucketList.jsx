@@ -4,7 +4,7 @@ import { HiArrowUpLeft } from "react-icons/hi2";
 
 const BucketList = () => {
   return (
-    <div className="flex flex-col gap-[64px] mt-[160px] max-w-xl px-[32px] mx-auto">
+    <div className="flex flex-col gap-[64px] my-[160px] max-w-xl px-[32px] mx-auto">
       <div className="flex flex-col p-[8px]">
         <Link
           to={"/"}
