@@ -105,7 +105,7 @@ const BucketList = () => {
             <div className="flex flex-row">
               <div className="flex flex-col">
                 <p className="font-medium">Go to culinary school in France</p>
-                <p className="text-sm text-gray-500">Yes, chef</p>
+                <p className="text-sm text-gray-500">Yes, Chef</p>
               </div>
               <p className="text-sm text-gray-500 ml-auto hidden">
                 Dec. 2, 2024
