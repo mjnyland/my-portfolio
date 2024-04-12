@@ -43,6 +43,14 @@ function Home() {
               </a>{" "}
               <HiExternalLink />
             </div>
+            <div className="flex flex-row items-center">
+              <Link
+                className="hover:cursor-pointer hover:underline underline-offset-2 text-base font-medium pr-[4px]"
+                to="/BucketList"
+              >
+                Bucket list
+              </Link>{" "}
+            </div>
           </div>
         </div>
       </div>
