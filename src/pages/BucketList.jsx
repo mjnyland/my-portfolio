@@ -17,7 +17,7 @@ const BucketList = () => {
           <div className="flex flex-col items-left justify-center gap-[24px]">
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-semibold line-through">Run a marathon</p>
+                <p className="font-medium line-through">Run a marathon</p>
                 <p className="text-sm text-gray-500 line-through">
                   Thank you, Chicago
                 </p>
@@ -27,7 +27,7 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-semibold line-through">Get married</p>
+                <p className="font-medium line-through">Get married</p>
                 <p className="text-sm text-gray-500 line-through">
                   And have the best party ever
                 </p>
@@ -37,7 +37,7 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-semibold">Ship an app to the App Store</p>
+                <p className="font-medium">Ship an app to the App Store</p>
                 <p className="text-sm text-gray-500">And get it to usage</p>
               </div>
               <p className="text-sm text-gray-500 ml-auto hidden">
@@ -47,7 +47,7 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-semibold">Shoot my age in golf</p>
+                <p className="font-medium">Shoot my age in golf</p>
                 <p className="text-sm text-gray-500">70 at 70 seems doable</p>
               </div>
               <p className="text-sm text-gray-500 ml-auto hidden">
@@ -57,7 +57,7 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-semibold">Learn Japanese</p>
+                <p className="font-medium">Learn Japanese</p>
                 <p className="text-sm text-gray-500">And visit Tokyo</p>
               </div>
               <p className="text-sm text-gray-500 ml-auto hidden">
@@ -67,7 +67,7 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-semibold">Take pictures</p>
+                <p className="font-medium">Take pictures</p>
                 <p className="text-sm text-gray-500">
                   Really just a note to self
                 </p>
@@ -79,7 +79,7 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-semibold">Achieve financial independence</p>
+                <p className="font-medium">Achieve financial independence</p>
                 <p className="text-sm text-gray-500">
                   Spend less than I make, and live off interest
                 </p>
@@ -91,7 +91,7 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-semibold">Start a company</p>
+                <p className="font-medium">Start a company</p>
                 <p className="text-sm text-gray-500">
                   "Founder" is my dream title
                 </p>
@@ -103,7 +103,7 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-semibold">Build a house</p>
+                <p className="font-medium">Build a house</p>
                 <p className="text-sm text-gray-500">
                   And get featured on Grand Designs??
                 </p>
@@ -115,7 +115,7 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-semibold">Start a Family</p>
+                <p className="font-medium">Start a Family</p>
                 <p className="text-sm text-gray-500">
                   And teach them how to Golf
                 </p>
