@@ -13,7 +13,7 @@ function Home() {
             Product and brand designer with 6 years of experience, and currently
             the lead designer at{" "}
             <a
-              className="font-regular cursor-pointer underline underline-offset-2"
+              className="font-regular hover:cursor-pointer underline underline-offset-2"
               href="https://www.daysheets.com"
               target="_blank"
             >
@@ -25,7 +25,7 @@ function Home() {
           <div className="flex flex-row gap-[24px]">
             <div className="flex flex-row items-center ">
               <a
-                className="cursor-pointer hover:underline underline-offset-2 text-base font-medium pr-[4px]"
+                className="hover:cursor-pointer hover:underline underline-offset-2 text-base font-medium pr-[4px]"
                 href="https://drive.google.com/file/d/1w2NO16XVEbMI9Wg4WXFkvigV3G9KzBKb/view?usp=sharing"
                 target="_blank"
               >
@@ -35,7 +35,7 @@ function Home() {
             </div>
             <div className="flex flex-row items-center">
               <a
-                className="cursor-pointer hover:underline underline-offset-2 text-base font-medium pr-[4px]"
+                className="hover:cursor-pointer hover:underline underline-offset-2 text-base font-medium pr-[4px]"
                 href="https://vimeo.com/678435899?share=copy"
                 target="_blank"
               >
@@ -53,7 +53,7 @@ function Home() {
           <h3 className="text-base text-gray-500 p-[8px] mb-[8px]">Projects</h3>
           <div className="flex flex-col items-left justify-center gap-[16px]">
             <Link
-              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
               to="Daysheets"
             >
               <div className="flex flex-col">
@@ -70,7 +70,7 @@ function Home() {
             </Link>
 
             <Link
-              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
               to="Spotify"
             >
               <div>
@@ -86,7 +86,7 @@ function Home() {
               </div>
             </Link>
             <Link
-              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
               to="SBWC"
             >
               <div>
@@ -102,7 +102,7 @@ function Home() {
               </div>
             </Link>
             <Link
-              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group"
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
               to="Crewsheets"
             >
               <div>
