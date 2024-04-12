@@ -8,7 +8,7 @@ const BucketList = () => {
       <div className="flex flex-col p-[8px]">
         <Link
           to={"/"}
-          className="mb-[32px] hover:underline flex items-center gap-[4px]"
+          className="mb-[32px] hover:underline flex items-center gap-[4px] cursor-pointer"
         >
           <HiArrowUpLeft />
           <p className="text-base">{"Back"}</p>
