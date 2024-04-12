@@ -9,7 +9,7 @@ function Home() {
       <div className="flex flex-col p-[8px]">
         <p className="text-3xl">{"Michael Nyland"}</p>
         <div className="flex flex-col">
-          <p className="text-base pt-[32px] pb-[24px]">
+          <p className="text-base pt-[32px] pb-[16px]">
             Product and brand designer with 6 years of experience, and currently
             the lead designer at{" "}
             <a
@@ -17,8 +17,9 @@ function Home() {
               href="https://www.daysheets.com"
               target="_blank"
             >
-              Daysheets.
-            </a>{" "}
+              Daysheets
+            </a>
+            {". "}
             I'm looking for full-time roles with startups. I live in Brooklyn,
             but I'm open to relocation.
           </p>
@@ -54,10 +55,10 @@ function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col max-w-">
+      <div className="flex flex-col">
         {/* Projects Container */}
         <div className="flex flex-col">
-          <h3 className="text-base text-gray-500 p-[8px] mb-[8px]">Projects</h3>
+          <h3 className="text-base text-gray-500 p-[8px]">Projects</h3>
           <div className="flex flex-col items-left justify-center gap-[16px]">
             <Link
               className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
