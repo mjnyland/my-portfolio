@@ -5,7 +5,7 @@ import sweden from "../assets/sweden.png";
 
 const AMA = () => {
   return (
-    <div className="flex flex-col gap-[64px] my-[160px] max-w-xl px-[32px] mx-auto">
+    <div className="flex flex-col gap-[64px] my-[80px] max-w-xl px-[32px] mx-auto">
       <div className="flex flex-col p-[8px]">
         <Link
           to={"/"}
@@ -70,7 +70,7 @@ const AMA = () => {
             <div className="flex flex-row">
               <div className="flex flex-col gap-[8px]">
                 <p className="font-medium">
-                  What is the hardest things about product vs brand?
+                  What is the hardest thing about product vs brand?
                 </p>
                 <p className="text-sm text-gray-500">
                   Brand designs are seen and interacted with, but they're not

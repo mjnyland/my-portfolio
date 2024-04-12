@@ -5,7 +5,7 @@ import bermuda from "../assets/Bermuda.png";
 
 const BucketList = () => {
   return (
-    <div className="flex flex-col gap-[64px] my-[160px] max-w-xl px-[32px] mx-auto">
+    <div className="flex flex-col gap-[64px] my-[80px] max-w-xl px-[32px] mx-auto">
       <div className="flex flex-col p-[8px]">
         <Link
           to={"/"}
@@ -138,9 +138,9 @@ const BucketList = () => {
 
             <div className="flex flex-row">
               <div className="flex flex-col">
-                <p className="font-medium">Start a Family</p>
+                <p className="font-medium">Start a family</p>
                 <p className="text-sm text-gray-500">
-                  And teach them how to Golf
+                  And teach them how to golf
                 </p>
               </div>
               <p className="text-sm text-gray-500 ml-auto hidden">

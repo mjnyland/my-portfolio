@@ -5,7 +5,7 @@ import { HiExternalLink, HiArrowNarrowRight } from "react-icons/hi";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-[64px] mt-[160px] max-w-xl px-[32px] mx-auto">
+    <div className="flex flex-col gap-[64px] mt-[80px] max-w-xl px-[32px] mx-auto">
       <div className="flex flex-col p-[8px]">
         <p className="text-3xl">{"Michael Nyland"}</p>
         <div className="flex flex-col">
