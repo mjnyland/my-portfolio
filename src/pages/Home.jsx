@@ -59,7 +59,7 @@ function Home() {
         {/* Projects Container */}
         <div className="flex flex-col">
           <h3 className="text-sm text-gray-500 p-[8px]">Projects</h3>
-          <div className="flex flex-col items-left justify-center gap-[16px]">
+          <div className="flex flex-col items-left justify-center gap-[12px]">
             <Link
               className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
               to="Daysheets"

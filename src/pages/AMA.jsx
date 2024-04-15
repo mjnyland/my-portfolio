@@ -9,10 +9,10 @@ const AMA = () => {
       <div className="flex flex-col p-[8px]">
         <Link
           to={"/"}
-          className="mb-[32px] hover:underline flex items-center gap-[4px] cursor-pointer"
+          className="mb-[32px] hover:underline decoration-blue-500 flex items-center gap-[4px] cursor-pointer"
         >
-          <HiArrowUpLeft />
-          <p className="text-base">{"Back"}</p>
+          <HiArrowUpLeft color="rgb(59 130 246)" />
+          <p className="text-base text-blue-500">{"Back"}</p>
         </Link>
         <div className="flex flex-col">
           <div className="flex flex-col items-left justify-center gap-[24px]">
@@ -141,7 +141,7 @@ const AMA = () => {
                 className="rounded-lg"
               />
               <p className="text-sm text-gray-500 pt-[8px]">
-                Looking over Stockholm in 2021
+                Looking over Stockholm | 2021
               </p>
             </div>
 
