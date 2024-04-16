@@ -17,7 +17,7 @@ const AMA = () => {
         <div className="flex flex-col">
           <div className="flex flex-col items-left justify-center gap-[24px]">
             <div className="flex flex-row">
-              <div className="flex flex-col gap-[8px]">
+              <div className="flex flex-col gap-[4px]">
                 <p className="font-medium">
                   What is the project you're most proud of?
                 </p>
@@ -34,7 +34,7 @@ const AMA = () => {
             </div>
 
             <div className="flex flex-row">
-              <div className="flex flex-col gap-[8px]">
+              <div className="flex flex-col gap-[4px]">
                 <p className="font-medium">
                   Do you consider yourself a brand designer or a product
                   designer?
@@ -49,7 +49,7 @@ const AMA = () => {
             </div>
 
             <div className="flex flex-row">
-              <div className="flex flex-col gap-[8px]">
+              <div className="flex flex-col gap-[4px]">
                 <p className="font-medium">
                   What about coding - are you a designer or an engineer?
                 </p>
@@ -66,7 +66,7 @@ const AMA = () => {
             </div>
 
             <div className="flex flex-row">
-              <div className="flex flex-col gap-[8px]">
+              <div className="flex flex-col gap-[4px]">
                 <p className="font-medium">
                   What is the hardest thing about product vs brand?
                 </p>
@@ -82,7 +82,7 @@ const AMA = () => {
             </div>
 
             <div className="flex flex-row">
-              <div className="flex flex-col gap-[8px]">
+              <div className="flex flex-col gap-[4px]">
                 <p className="font-medium">What makes you so confident?</p>
                 <p className=" text-gray-500">
                   I've made just about every mistake you can make. Every time
@@ -94,7 +94,7 @@ const AMA = () => {
             </div>
 
             <div className="flex flex-row">
-              <div className="flex flex-col gap-[8px]">
+              <div className="flex flex-col gap-[4px]">
                 <p className="font-medium">What are your weaknesses?</p>
                 <p className=" text-gray-500">
                   Sometimes I overthink. Sometimes thats a good thing, but most
@@ -106,9 +106,9 @@ const AMA = () => {
             </div>
 
             <div className="flex flex-row">
-              <div className="flex flex-col gap-[8px]">
+              <div className="flex flex-col gap-[4px]">
                 <p className="font-medium">What are your strengths?</p>
-                <div className="flex flex-col gap-[8px]">
+                <div className="flex flex-col gap-[4px]">
                   <p className=" text-gray-500">Two things:</p>
                   <p className=" text-gray-500">
                     Design isn't linear - it's messy. I don't bother with
