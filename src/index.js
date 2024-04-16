@@ -11,6 +11,7 @@ import ProjectFour from "./pages/ProjectFour";
 import { Analytics } from "@vercel/analytics/react";
 import BucketList from "./pages/BucketList";
 import AMA from "./pages/AMA";
+import DaysheetsMacOS from "./pages/DaysheetsMacOS";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/Crewsheets" index element={<ProjectThree />} />
         <Route path="/BucketList" index element={<BucketList />} />
         <Route path="/AMA" index element={<AMA />} />
+        <Route path="/DaysheetsMacOS" index element={<DaysheetsMacOS />} />
       </Routes>
     </BrowserRouter>
   );

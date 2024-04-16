@@ -66,7 +66,7 @@ function Home() {
             >
               <div className="flex flex-col">
                 <h1 className="text-base font-medium group-hover:underline">
-                  Daysheets
+                  Daysheets iOS
                 </h1>
                 <p className="text-sm text-gray-500">
                   Product Design, User Research, Prototyping
@@ -76,7 +76,22 @@ function Home() {
                 <HiArrowNarrowRight />
               </div>
             </Link>
-
+            <Link
+              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
+              to="DaysheetsMacOS"
+            >
+              <div>
+                <h1 className="text-base font-medium group-hover:underline">
+                  Daysheets MacOS
+                </h1>
+                <p className="text-sm text-gray-500">
+                  Product Design, User Research, Prototyping
+                </p>
+              </div>
+              <div className="my-auto ml-auto pr-[16px] hidden group-hover:block">
+                <HiArrowNarrowRight />
+              </div>
+            </Link>
             <Link
               className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
               to="Spotify"
@@ -103,22 +118,6 @@ function Home() {
                 </h1>
                 <p className="text-sm text-gray-500">
                   Product Design, Prototyping
-                </p>
-              </div>
-              <div className="my-auto ml-auto pr-[16px] hidden group-hover:block">
-                <HiArrowNarrowRight />
-              </div>
-            </Link>
-            <Link
-              className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
-              to="Crewsheets"
-            >
-              <div>
-                <h1 className="text-base font-medium group-hover:underline">
-                  Crewsheets
-                </h1>
-                <p className="text-sm text-gray-500">
-                  Product Design, Visual Design, Prototyping
                 </p>
               </div>
               <div className="my-auto ml-auto pr-[16px] hidden group-hover:block">
