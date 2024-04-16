@@ -17,6 +17,7 @@ import flightsThree from "../assets/Daysheets_Flights_3.png";
 import { HiArrowUpLeft } from "react-icons/hi2";
 import "lightbox.js-react/dist/index.css";
 import { SlideshowLightbox, initLightboxJS } from "lightbox.js-react";
+import ReactPlayer from "react-player";
 
 const DaysheetsMacOS = () => {
   return (
@@ -112,6 +113,11 @@ const DaysheetsMacOS = () => {
             className="rounded-lg"
           />
         </SlideshowLightbox>
+        <ReactPlayer
+          url="https://vimeo.com/935558138?share=copy"
+          controls="true"
+          width="100%"
+        />
 
         <div className="flex flex-col gap-[16px] max-w-xl w-full">
           <p className="max-w-3xl text-left py-[80px] text-base">
