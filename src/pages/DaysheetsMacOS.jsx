@@ -47,9 +47,9 @@ const DaysheetsMacOS = () => {
 
         <div className="flex flex-col gap-[16px] max-w-xl w-full">
           <p className="max-w-3xl text-left py-[80px] text-base">
-            Previsouly our page header was displaying the start and end dates of
+            Previously our page header was displaying the start and end dates of
             the tour, which was only useful in edge cases. Tabs were also
-            disconnected from the page, and wasn't found easily.
+            disconnected from the page, and weren't found easily.
           </p>
         </div>
         {/*<img src={imageTwo} alt="AI at Spotify" />*/}
