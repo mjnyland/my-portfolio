@@ -117,6 +117,7 @@ const DaysheetsMacOS = () => {
           url="https://vimeo.com/935558138?share=copy"
           controls="true"
           width="100%"
+          muted={true}
         />
 
         <div className="flex flex-col gap-[16px] max-w-xl w-full">
