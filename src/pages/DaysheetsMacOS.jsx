@@ -47,7 +47,10 @@ const DaysheetsMacOS = () => {
 
         <div className="flex flex-col gap-[16px] max-w-xl w-full">
           <p className="max-w-3xl text-left py-[80px] text-base">
-            The lowest hanging fruit was our page titles.
+            The lowest hanging fruit was our page titles. Previsouly this was
+            displaying the start and end dates of the tour, which was only
+            useful in edge cases. Tabs were also disconnected from the page, and
+            wasn't found easily.
           </p>
         </div>
         {/*<img src={imageTwo} alt="AI at Spotify" />*/}
@@ -83,7 +86,14 @@ const DaysheetsMacOS = () => {
 
         <div className="flex flex-col gap-[16px] max-w-xl w-full">
           <p className="max-w-3xl text-left py-[80px] text-base">
-            I knew our typography was an issue from the get-go.
+            From there I looked at our design system. We had defined some base
+            stlyes that were very far off Apple's HIG. This also meant that we
+            didn't support dynamic type.
+          </p>
+
+          <p className="max-w-3xl text-left py-[80px] text-base">
+            We also weren't making use of properties in Figma, an issue that was
+            slowing everyone down.
           </p>
         </div>
         <SlideshowLightbox
@@ -106,7 +116,8 @@ const DaysheetsMacOS = () => {
 
         <div className="flex flex-col gap-[16px] max-w-xl w-full">
           <p className="max-w-3xl text-left py-[80px] text-base">
-            Keeping with improving navigation, I redesigned our sidebar.
+            Now with new and improved type styles, I was confident I could
+            improve our sidebar - a key component to our interface.
           </p>
         </div>
         <SlideshowLightbox
@@ -129,7 +140,9 @@ const DaysheetsMacOS = () => {
 
         <div className="flex flex-col gap-[16px] max-w-xl w-full">
           <p className="max-w-3xl text-left py-[80px] text-base">
-            We then dug in to entire page changes, starting with personnel.
+            We then dug in to entire page changes, starting with personnel. I
+            set sensible defualts, and applied new text styling to make
+            everything much more scannable.
           </p>
         </div>
         <SlideshowLightbox
@@ -152,7 +165,10 @@ const DaysheetsMacOS = () => {
 
         <div className="flex flex-col gap-[16px] max-w-xl w-full">
           <p className="max-w-3xl text-left py-[80px] text-base">
-            And finally, a new and improved flights experience.
+            And finally, a new and improved flights experience. We made a
+            flights page that made viewing 10+ flights a breeze. We even added a
+            way to import flights straight from your email or a pdf. Our users
+            loved it.
           </p>
         </div>
         <SlideshowLightbox
@@ -178,6 +194,12 @@ const DaysheetsMacOS = () => {
             className="rounded-lg"
           />
         </SlideshowLightbox>
+        <div className="flex flex-col gap-[16px] max-w-xl w-full">
+          <p className="max-w-3xl text-left py-[80px] text-base">
+            Coming soon - onboarding improvements, pre-planning grids,
+            hotel/flight booking, and more!
+          </p>
+        </div>
       </div>
     </div>
   );
