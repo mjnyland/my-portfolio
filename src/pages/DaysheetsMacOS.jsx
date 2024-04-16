@@ -85,13 +85,13 @@ const DaysheetsMacOS = () => {
         </SlideshowLightbox>
 
         <div className="flex flex-col gap-[16px] max-w-xl w-full">
-          <p className="max-w-3xl text-left py-[80px] text-base">
+          <p className="max-w-3xl text-left pt-[80px] text-base">
             From there I looked at our design system. We had defined some base
             stlyes that were very far off Apple's HIG. This also meant that we
             didn't support dynamic type.
           </p>
 
-          <p className="max-w-3xl text-left py-[80px] text-base">
+          <p className="max-w-3xl text-left pb-[80px] text-base">
             We also weren't making use of properties in Figma, an issue that was
             slowing everyone down.
           </p>
