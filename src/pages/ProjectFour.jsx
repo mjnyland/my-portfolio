@@ -56,6 +56,11 @@ function ProjectFour() {
           showThumbnails={false}
         >
           <img
+            src={imageFour}
+            alt="AI at Spotify"
+            className="rounded-lg cursor-zoom-in"
+          />
+          <img
             src={imageSeven}
             alt="AI at Spotify"
             className="rounded-lg cursor-zoom-in"
@@ -67,11 +72,6 @@ function ProjectFour() {
           />
           <img
             src={imageThree}
-            alt="AI at Spotify"
-            className="rounded-lg cursor-zoom-in"
-          />
-          <img
-            src={imageFour}
             alt="AI at Spotify"
             className="rounded-lg cursor-zoom-in"
           />
