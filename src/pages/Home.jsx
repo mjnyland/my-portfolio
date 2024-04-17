@@ -23,7 +23,7 @@ function Home() {
             I'm looking for full-time roles with startups. I live in Brooklyn,
             but I'm open to relocation.
           </p>
-          <div className="flex flex-row gap-[24px]">
+          <div className="flex flex-col md:flex-row gap-[24px]">
             <div className="flex flex-row items-center ">
               <a
                 className="hover:cursor-pointer hover:underline underline-offset-2 text-base font-medium pr-[4px]"
