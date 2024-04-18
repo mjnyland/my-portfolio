@@ -16,7 +16,7 @@ const AMA = () => {
         </Link>
         <div className="flex flex-col">
           <div className="flex flex-col items-left justify-center gap-[24px]">
-            <div className="flex flex-row">
+            {/* <div className="flex flex-row">
               <div className="flex flex-col gap-[4px]">
                 <p className="font-medium">
                   What is the project you're most proud of?
@@ -30,7 +30,7 @@ const AMA = () => {
                   talking to users, creating prototypes, high-fidelity mockups.
                 </p>
               </div>
-            </div>
+            </div> */}
 
             <div className="flex flex-row">
               <div className="flex flex-col gap-[4px]">

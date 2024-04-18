@@ -60,7 +60,7 @@ function Home() {
         <div className="flex flex-col">
           <h3 className="text-sm text-gray-500 p-[8px]">Projects</h3>
           <div className="flex flex-col items-left justify-center gap-[12px]">
-            <Link
+            {/* <Link
               className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
               to="Daysheets"
             >
@@ -91,7 +91,7 @@ function Home() {
               <div className="my-auto ml-auto pr-[16px] hidden group-hover:block">
                 <HiArrowNarrowRight />
               </div>
-            </Link>
+            </Link> */}
             <Link
               className="font-blue p-[8px] flex flex-row hover:bg-gray-100 rounded group hover:cursor-pointer"
               to="Spotify"
