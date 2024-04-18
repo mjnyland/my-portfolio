@@ -27,8 +27,7 @@ const AMA = () => {
                     here
                   </Link>
                   {""}. I got to own the entire project from end-to-end. From
-                  talking to users, creating prototypes, high-fidelity mockups,
-                  and even helping write the code.
+                  talking to users, creating prototypes, high-fidelity mockups.
                 </p>
               </div>
             </div>
