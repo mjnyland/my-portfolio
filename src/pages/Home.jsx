@@ -17,11 +17,9 @@ function Home() {
               href="https://www.daysheets.com"
               target="_blank"
             >
-              Daysheets
+              Daysheets.
             </a>
             {". "}
-            I'm looking for full-time roles with startups. I live in Brooklyn,
-            but I'm open to relocation.
           </p>
           <div className="flex flex-col md:flex-row gap-[24px]">
             <div className="flex flex-row items-center ">
